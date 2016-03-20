@@ -1,0 +1,14 @@
+---
+#FlagSpiral by xBeastMode
+#How wide do you want the spiral to be?
+#1 radius = 1 blocks wide
+radius: 2
+#position of the flag?
+#lobby = default world
+#format = x:y:z:level
+position: 128:4:127:world
+#flag name? All included in plugin: mexico, italy, germany, russian, britain, france, usa, canada, ireland, scotland
+flag: germany
+#Every how many seconds do you want to spawn a spiral?
+time: 3
+...
