@@ -1,0 +1,7 @@
+main: xbeastmode\flagspiral\Loader
+api: 2.0.0
+load: STARTUP
+name: FlagSpiral
+description: "create flags out of particles"
+version: 1.0-experimental
+author: xBeastMode
