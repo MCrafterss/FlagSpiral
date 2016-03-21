@@ -42,6 +42,7 @@ class Loader extends PluginBase{
             }
             break;
             case 'germany':
+            case 'belgium':    
                 for($i = 0; $i <= $radius*10; $i += 0.10) {
                     $x = $radius * cos($i);
                     $z = $radius * sin($i);
