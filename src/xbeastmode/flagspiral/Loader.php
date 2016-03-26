@@ -247,6 +247,16 @@ class Loader extends PluginBase{
                         $p->getLevel()->addParticle(new DustParticle(new Vector3($p->x - $x, $p->y + $i * M_PI, $p->z - $z), 255, 255, 255));//WHITE
                     }
                     break;
+                    case 'arabic':
+                    for ($i = 0; $i <= $radius * 25; $i += 0.10) {
+                        $x = $radius * cos($i);
+                        $z = $radius * sin($i);
+                        $p->getLevel()->addParticle(new DustParticle(new Vector3($p->x + $x, $p->y + $i * M_PI, $p->z + $z),51, 102, 0));
+                        $p->getLevel()->addParticle(new DustParticle(new Vector3($p->x + $x, $p->y + $i * M_PI, $p->z + $z),51, 102, 0));
+                        $p->getLevel()->addParticle(new DustParticle(new Vector3($p->x - $x, $p->y + $i * M_PI + 4, $p->z - $z),255, 255, 255));
+                        $p->getLevel()->addParticle(new DustParticle(new Vector3($p->x - $x, $p->y + $i * M_PI + 4, $p->z - $z),255, 255, 255));
+                    }
+                        break;
             }
         }
     }
